@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: http://172.24.74.20:8848
+        file-extension: yaml
+        namespace: 1e5a4570-3e08-43a6-8366-50e89ff8608e
+      discovery:
+        server-addr: http://172.24.74.20:8848
+        namespace: 1e5a4570-3e08-43a6-8366-50e89ff8608e

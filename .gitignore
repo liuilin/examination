@@ -1,0 +1,10 @@
+/.idea/
+examination-parent.iml
+examination/.idea/
+examination/examination.iml
+client-examination/client-examination.iml
+/examination/target/
+/client-examination/target/
+/examination/src/test/
+/examination/Dockerfile
+/examination/src/test/

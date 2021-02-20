@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: http://nacos.shianyunlian.cn
+        file-extension: yaml
+        namespace: e8936153-5c9c-4f61-bc42-47a0a34d8708
+      discovery:
+        server-addr: http://nacos.shianyunlian.cn
+        namespace: e8936153-5c9c-4f61-bc42-47a0a34d8708

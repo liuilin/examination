@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: http://nacos.t.middle-platform.shianyunlian.cn
+        file-extension: yaml
+        namespace: 84ccfb12-9f4f-444f-95b7-06a1d82d4486
+      discovery:
+        server-addr: http://nacos.t.middle-platform.shianyunlian.cn
+        namespace: 84ccfb12-9f4f-444f-95b7-06a1d82d4486
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志

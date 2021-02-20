@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: examination
+  profiles:
+    active: @profile.active@
+server:
+  port: 9011
+  servlet:
+    context-path: /examination
+logging:
+  level:
+    io.swagger.models.parameters.AbstractSerializableParameter: error
